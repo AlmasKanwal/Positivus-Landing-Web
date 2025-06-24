@@ -1,0 +1,127 @@
+/* Header Start */
+header img{
+    width: 150px;
+    height: 30px;
+}
+/* Header End */
+
+/* Hero Section Start */
+@media only screen and (max-width: 779px){
+    .hero-sec .btn{
+        padding: 8px;
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 730px){
+    .hero-sec .btn{
+        width: 60%;
+        padding: 10px;
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 660px){
+    .hero-sec .hero-area{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .hero-sec .btn{
+        /* width: 40%; */
+        padding: 8px;
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .hero-sec .hero-img img{
+    width: 300px;
+    height: auto;
+}
+}
+
+@media only screen and (max-width: 315px){
+    .hero-sec .hero-img img{
+    width: 250px;
+    height: auto;
+}
+}
+/* Hero Section End */
+
+/* Social Section Start */
+@media only screen and (max-width: 300px){
+    .social-sec .container-xxl{
+    flex-direction: column;
+}
+}
+/* Social Section End */
+
+/* Services Section Start */
+@media only screen and (max-width: 370px){
+    .services-sec .card-item{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 252px;
+}
+
+    .card-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .card-img img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/* Services Section Start */
+
+/* Proposal Section Start */
+@media only screen and (max-width: 810px){
+    .proposal-sec .btn{
+        padding: 8px;
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 752px){
+    .proposal-sec .hero-area{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 440px){
+    .proposal-sec .btn{
+        width: 100%;
+        padding: 10px;
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .proposal-sec .hero-img img{
+    width: 200px;
+    height: auto;
+}
+}
+/* Proposal Section End */
+
+/* Case Studies Section Start */
+
+
+
+
+
+
+
+
+
+
+/* Case Studies Section End */

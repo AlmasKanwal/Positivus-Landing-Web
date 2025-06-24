@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: white;
+    color: black;
+}
+
+.hover-img{
+    transition: transform 0.3s ease;
+}
+
+.hover-img:hover{
+    transform: scale(1.1);
+}
+
+.head{
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.head h2{
+    font-size: 2.5em;
+    background-color: #b9ff66;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.head p{
+    font-size: 18px;
+}
+
+/* Header Start */
+header{
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    font-size: 18px;
+    background-color: white;
+}
+
+header img{
+    width: 200px;
+    height: 40px;
+}
+
+.nav-link{
+    color: black;
+    padding: 10px;
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #b9ff66;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+  }
+
+header .btn{
+    border: 2px solid black;
+    color: black;
+    font-size: 18px;
+}
+
+header .btn:hover{
+    background-color: #b9ff66;
+    border: 2px solid black;
+    color: black;
+}
+/* Header End */
+
+/* Hero Section Start */
+.hero-sec{
+    margin-top: 130px;
+}
+
+.hero-sec .hero-text{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-sec .hero-text h1{
+    font-size: 3em;
+}
+
+.hero-sec .hero-text p{
+    font-size: 1em;
+}
+
+.hero-sec .btn{
+    width: 40%;
+    padding: 10px;
+    border: 2px solid black !important;
+    background-color: black !important;
+    color: white !important;
+    font-size: 18px !important;
+}
+
+.hero-sec .btn:hover{
+    background-color: #b9ff66 !important;
+    border: 2px solid black !important;
+    color: black !important;
+}
+
+.hero-sec .hero-img img{
+    width: 300px;
+    height: auto;
+}
+/* Hero Section End */
+
+/* Social Section Start */
+.social-sec{
+    margin-top: 80px;
+}
+
+.social-sec .container-xxl{
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.social-sec img{
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+.social-sec img:hover{
+    filter: grayscale(0);
+}
+/* Social Section End */
+
+/* Services Section Start */
+.services-sec{
+    margin-top: 80px;
+}
+
+.services-sec .circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.cards-cont{
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card-item{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: #f3f3f3;
+    gap: 30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+}
+
+.card-item:hover{
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+}
+
+.card-item .card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-item .card-text a{
+    color: black;
+    text-decoration: none;
+}
+
+.circle i{
+    color: #b9ff66;
+}
+
+.card-2{
+    background-color: #b9ff66;
+}
+.card-3{
+    background-color: #191a23;
+    color: white;
+}
+
+.card-3 .circle{
+    background-color: white;
+}
+
+.card-3 .circle i{
+    color: #191a23;
+}
+
+.card-3 .learn a{
+    color: white;
+}
+/* Services Section End */
+
+/* Proposal Section Start */
+.proposal-sec{
+    margin-top: 100px;
+}
+
+.proposal-sec .hero-area{
+    background-color: #f3f3f3;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.proposal-sec .btn{
+    width: 50%;
+    padding: 10px;
+    border: 2px solid black !important;
+    background-color: black !important;
+    color: white !important;
+    font-size: 18px !important;
+}
+
+.proposal-sec .btn:hover{
+    background-color: #b9ff66 !important;
+    border: 2px solid black !important;
+    color: black !important;
+}
+
+.proposal-sec .hero-text{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.proposal-sec .hero-text h1{
+    font-size: 3em;
+}
+
+.proposal-sec .hero-text p{
+    font-size: 1em;
+}
+
+.proposal-sec .hero-img img{
+    width: 300px;
+    height: auto;
+}
+/* Proposal Section End */
+
+/* Case Studies Section Start */
+.case-sec{
+    margin-top: 100px;
+}
+
+.case-sec .card-item{
+    box-shadow: none;
+}
+
+
+
+/* Case Studies Section End */
