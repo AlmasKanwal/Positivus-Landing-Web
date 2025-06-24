@@ -6,30 +6,48 @@ header img{
 /* Header End */
 
 /* Hero Section Start */
-@media only screen and (max-width: 779px){
-    .hero-sec .btn{
-        padding: 8px;
-        font-size: 16px !important;
+@media only screen and (max-width: 1000px){
+    .hero-sec .hero-img img{
+        width: 350px;
+        height: auto;
+    }
+
+    .hero-sec{
+        margin-top: 70px;
+    }
+
+    .hero-sec .hero-text{
+        width: 100%;
+    }
+
+    .hero-sec .hero-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
-@media only screen and (max-width: 730px){
+@media only screen and (max-width: 830px){
     .hero-sec .btn{
-        width: 60%;
         padding: 10px;
         font-size: 16px !important;
     }
 }
 
-@media only screen and (max-width: 660px){
+@media only screen and (max-width: 790px){
+    .hero-sec .btn{
+        width: 50%;
+    }
     .hero-sec .hero-area{
         flex-direction: column;
+    }
+    .hero-sec .hero-text h1{
+        font-size: 2.5em;
     }
 }
 
 @media only screen and (max-width: 460px){
     .hero-sec .btn{
-        /* width: 40%; */
         padding: 8px;
         font-size: 16px !important;
     }
@@ -37,9 +55,13 @@ header img{
 
 @media only screen and (max-width: 375px){
     .hero-sec .hero-img img{
-    width: 300px;
-    height: auto;
-}
+        width: 250px;
+        height: auto;
+    }
+
+    .hero-sec .btn{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 315px){
@@ -59,26 +81,21 @@ header img{
 /* Social Section End */
 
 /* Services Section Start */
-@media only screen and (max-width: 370px){
-    .services-sec .card-item{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 252px;
-}
-
-    .card-text{
-        display: flex;
+@media (max-width: 420px) {
+    .card-item {
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        text-align: center;
+        gap: 30px;
+        height: auto;
     }
 
-    .card-img img{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .card-text {
+        max-width: 100%; 
+        gap: 20px;
+    }
+
+    .card-img {
+        max-width: 50%; 
     }
 }
 /* Services Section Start */
@@ -95,6 +112,13 @@ header img{
     .proposal-sec .hero-area{
         flex-direction: column;
     }
+    .proposal-sec .hero-text h1{
+        font-size: 2.5em;
+    }
+
+    .proposal-sec .hero-area{
+        gap: 50px !important;
+    }
 }
 
 @media only screen and (max-width: 440px){
@@ -103,25 +127,73 @@ header img{
         padding: 10px;
         font-size: 16px !important;
     }
+
+    .proposal-sec .hero-img img{
+        width: 200px;
+        height: auto;
+    }
 }
 
-@media only screen and (max-width: 375px){
-    .proposal-sec .hero-img img{
-    width: 200px;
-    height: auto;
-}
-}
+
 /* Proposal Section End */
 
 /* Case Studies Section Start */
+@media only screen and (max-width: 800px){
+    .card-case{
+        flex-direction: column;
+        padding: 20px 40px;
+    }
 
-
-
-
-
-
-
-
-
-
+    .card-case .cards{
+        border-right: none;
+        border-bottom: 2px solid white;
+        padding: 35px 0;
+    }
+}
 /* Case Studies Section End */
+
+/* Working Process / FAQ Section Start */
+@media (max-width: 430px) {
+    .faq-header {
+        flex-wrap: wrap; 
+    }
+
+    .faq-title {
+        order: 3; 
+        margin-left: 0; 
+        margin-top: 10px; 
+        text-align: center; 
+        flex: 100%; 
+    }
+
+    .faq-number {
+        order: 1; 
+    }
+
+    .faq-icon {
+        order: 2; 
+    }
+}
+/* Working Process / FAQ Section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
