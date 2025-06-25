@@ -149,6 +149,10 @@ header img{
         border-bottom: 2px solid white;
         padding: 35px 0;
     }
+
+    .card-case .cad-3{
+        border-bottom: none;
+    }
 }
 /* Case Studies Section End */
 
@@ -176,24 +180,79 @@ header img{
 }
 /* Working Process / FAQ Section End */
 
+/* Team Section Start */
+@media only screen and (max-width: 360px){
+    .team-sec .card-box{
+        height: auto;
+    }
 
+    .card-box .card-top{
+        flex-wrap: wrap;
+    }
 
+    .card-top .text{
+        order: 3;
+        margin-top: 10px;
+    }
 
+    .card-top .icon-team{
+        order: 2;
+        margin-top: 50px;
+    }
 
+    .card-top img{
+        order: 1;
+    }
+}
+/* Team Section End */
 
+/* Testimonials Section Start  */
+@media (max-width: 800px) {
+  .testimonial-bubble{
+    max-width: 500px;
+  }
+}
 
+@media (max-width: 690px) {
+  .testimonial-bubble{
+    max-width: 400px;
+  }
 
+  .carousel-indicators{
+    top: 420px;
+  }
 
+   .slider-sec .carousel{
+        padding-bottom: 90px ;
+    }
+}
 
+@media (max-width: 580px) {
+  .testimonial-bubble{
+    max-width: 300px;
+  }
 
+  .carousel-indicators{
+    top: 470px;
+  }
 
+   .slider-sec .carousel{
+        padding-bottom: 80px ;
+    }
+}
 
+@media (max-width: 430px) {
+  .testimonial-bubble{
+    max-width: 250px;
+  }
 
+  .carousel-indicators{
+    top: 550px;
+  }
 
-
-
-
-
-
-
+  .carousel-control-prev, .carousel-control-next{
+    display: none;
+  }
+}
+/* Testimonials Section End  */
 
